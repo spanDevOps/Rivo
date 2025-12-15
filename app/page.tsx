@@ -253,7 +253,7 @@ export default function Chat() {
         <div className="max-w-4xl mx-auto space-y-3 relative z-20">
           {messages.length === 0 && (
             <div className="text-center py-16">
-              <h2 className={`text-4xl font-semibold ${isDark ? 'text-white' : 'text-gray-900'} mb-4`}>Hi! I am Rivo</h2>
+              <h2 className={`text-4xl font-semibold ${isDark ? 'text-white' : 'text-gray-900'} mb-4`}>Hi! I am Rivo.</h2>
               <p className={`text-lg ${isDark ? 'text-gray-100' : 'text-gray-800'} mb-10`}>I'm here to help you make smart property decisions in the UAE.</p>
               <div className="flex flex-col gap-6 items-center max-w-3xl mx-auto">
                 {/* Row 1 - 3 buttons */}
