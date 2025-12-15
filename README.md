@@ -4,7 +4,7 @@
 > **Challenge**: Build an AI-native conversational mortgage assistant that guides UAE users through buy vs rent decisions without hallucinating math.
 
 ## Live Demo
-🔗 [Live Application](YOUR_VERCEL_URL_HERE)
+🔗 [Live Application](https://rivo-eight.vercel.app/)
 
 ---
 
