@@ -364,9 +364,10 @@ export default function Chat() {
           )}
 
           {messages.map((message, index) => {
-            // Skip rendering the last assistant message entirely while streaming
+            // Skip rendering the last assistant message entirely until animation starts
             // to prevent any flash of content
-            if (message.role === 'assistant' && index === messages.length - 1 && isLoading) {
+            const isLastMessage = index === messages.length - 1;
+            if (message.role === 'assistant' && isLastMessage && !animationStartedFor.current.has(message.id)) {
               return null;
             }
             
